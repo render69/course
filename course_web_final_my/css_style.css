@@ -1,0 +1,338 @@
+#bodybody{
+	position: relative;
+	width: 1440px;
+	height: 1685px;
+	margin: auto;
+	background: #FFFFFF;
+}
+#header_back{	
+	position: relative;
+	width: 1440px;
+	height: 656px;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(180deg, #E2F1DA 0%, #D4FBF7 100%);
+}
+#header_box{
+	/* Frame 49 */
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 79px;
+	position: relative;
+	width: 1110px;
+	height: 523px;
+	left: 165px;
+	top: 48px;
+}
+#header_txt{
+	width: 528px;
+	height: 154px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 110%;
+	/* or 77px */
+	/* black */
+	color: #6A6B70;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+#full_lydi{
+	position: relative;
+	width: 503px;
+	height: 523px;
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+#lydi{
+	position: absolute;
+	left: 0%;
+	right: -0.01%;
+	top: 0%;
+	bottom: 0%;
+}
+#left_1{
+	position: relative;
+	display: grid;
+	left: 7.99%;
+	right: 87.18%;
+	top: 55.66%;
+	bottom: 42.12%;
+	z-index: 101;
+}
+#right_1_css{
+	position: absolute;
+	left: 91.65%;
+	right: 3.76%;
+	top: 25.7%;
+	bottom: 68.22%;
+}
+#full_fam{
+	position: absolute;
+	left: 0%;
+	right: -0.01%;
+	top: 0%;
+	bottom: 0%;
+}
+#osn{
+	position: absolute;
+	width: 836px;
+	height: 45px;
+	left: 165px;
+	top: 736px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 100%;
+	/* identical to box height, or 45px */
+	/* black */
+	color: #6A6B70;
+}
+#people_bloc{
+	position: absolute;
+	width: 350px;
+	height: 216px;
+	left: 165px;
+	top: 827px;
+	background: #DBF3EB;
+	border-radius: 10px 10px 0px 0px;
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+}
+#txt_people{
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px 25px 35px;
+	gap: 30px;
+	position: absolute;
+	/*width: 350px;*/
+	height: 174px;
+	left: 165px;
+	top: 1043px;
+	/* green */
+	background: #F0F6F4;
+	border-radius: 0px 0px 10px 10px;
+}
+#txt_people_txt{
+	width: 300px;
+	height: 66px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 125%;
+	/* or 32px */
+	/* black */
+	color: #6A6B70;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+#txt_people_silka{
+	width: 300px;
+	height: 18px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 110%;
+	/* identical to box height, or 18px */
+	/* blue */
+	color: #4F6ACC;
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+#heart_bloc{
+	position: absolute;
+	width: 350px;
+	height: 216px;
+	left: 545px;
+	top: 827px;
+	background: #DBF3EB;
+	border-radius: 10px 10px 0px 0px;
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+}
+#txt_heart{
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px 25px 35px;
+	gap: 30px;
+	position: absolute;
+	/*width: 350px;*/
+	height: 174px;
+	left: 545px;
+	top: 1043px;
+	/* green */
+	background: #F0F6F4;
+	border-radius: 0px 0px 10px 10px;
+}
+#txt_heart_txt{
+	width: 209px;
+	height: 66px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 125%;
+	/* or 32px */
+	/* black */
+	color: #6A6B70;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+#txt_heart_silka{
+	width: 300px;
+	height: 18px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 110%;
+	/* identical to box height, or 18px */
+	/* blue */
+	color: #4F6ACC;
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+#soldier_bloc{
+	position: absolute;
+	width: 350px;
+	height: 216px;
+	left: 925px;
+	top: 827px;
+	background: #DBF3EB;
+	border-radius: 10px 10px 0px 0px;
+	display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+}
+#txt_soldier{
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px 25px 35px;
+	gap: 30px;
+	position: absolute;
+	/*width: 350px;*/
+	height: 174px;
+	left: 925px;
+	top: 1043px;
+	/* green */
+	background: #F0F6F4;
+	border-radius: 0px 0px 10px 10px;
+}
+#txt_soldier_txt{
+	width: 300px;
+	height: 66px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 125%;
+	/* or 32px */
+	/* black */
+	color: #6A6B70;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+#txt_soldier_silka{
+	width: 300px;
+	height: 18px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 110%;
+	/* identical to box height, or 18px */
+	/* blue */
+	color: #4F6ACC;
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+#txt_over_linia{
+	position: absolute;
+	width: 267px;
+	height: 25px;
+	left: 586.5px;
+	top: 1402px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 100%;
+	/* identical to box height, or 25px 
+	/* black */
+	color: #6A6B70;
+}
+#linia{
+	position: absolute;
+	width: 1110px;
+	height: 0px;
+	left: 165px;
+	top: 1467px;
+	opacity: 0.5;
+	/* black */
+	border: 1px solid #6A6B70;
+}
+#footer_box{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	/*position:absolute;*/
+	width: 1440px;
+	height: 148px;
+	left: 0px;
+	top: 1537px;
+	background: linear-gradient(180deg, #E2F1DA 0%, #D4FBF7 100%);
+}
+.footer_txt{
+	width: 437px;
+	height: 52px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 145%;
+	text-align: center;
+	color: #6A6B70;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
